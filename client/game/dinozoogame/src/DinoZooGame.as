@@ -24,11 +24,11 @@ package
 
 		}
 		
-		
 		override public function set parentInjector( injector : Injector ) : void
 		{
 			injector ||= new Injector()
 			dinoZooContext = new DinoZooContext( this, injector );
 		}
+		
 	}
 }
